@@ -274,11 +274,6 @@ flex-wrap: wrap;
         flex-direction: column;
         gap: 30px;
     }
-    .collection-cards{
-
-
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
+   
     
 }

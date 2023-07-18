@@ -105,6 +105,14 @@ margin-top: 160px;
 
 }
 
+
+.see-more{
+
+    color:crimson;
+    font-size: 23px;
+    cursor: pointer;
+    text-align: right;
+}
 .cards{
     width: 100%;
     width: 329px;
@@ -185,4 +193,92 @@ footer{
     display: flex;
     gap:20px;
     justify-content: center;
+}
+
+
+@media screen and (max-width:576px) {
+
+.nav-container, .feature-section{
+
+flex-direction: column;
+
+
+}
+.nav-menu, .banner{
+
+flex-direction: column;
+gap: 25px;
+
+}
+.logo-container{
+
+    flex-direction: column;
+    gap:30px;
+    margin-left: 10px;
+}
+
+.collection-cards{
+width:70%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 25px;
+}
+
+footer{
+
+    width:100%;
+}
+.collection-container{
+
+    width:75%;
+}
+
+
+}
+
+@media screen and (min-width:577px) and (max-width:1192px){
+
+
+
+    .feature-section,.banner,.nav-container, .nav-menu{
+
+        flex-direction: column;
+        gap:20px;
+    }
+.collection-cards{
+width:70%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:20px;
+}
+.collection-container{
+
+    width:75%;
+}
+
+
+.logo-container{
+
+flex-wrap: wrap;
+
+}
+
+
+}
+
+@media  screen and (min-width:1193px) and (max-width:1700px) {
+
+
+    .feature-section{
+
+        flex-direction: column;
+        gap: 30px;
+    }
+    .collection-cards{
+
+
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
 }

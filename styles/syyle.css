@@ -1,0 +1,188 @@
+*{
+
+    font-size: 1.3rem;
+    font-family: 'work sans' sans-serif;
+    
+}
+
+
+.nav-header{
+
+    font-size: 2rem;
+}
+.nav-container{
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-menu{
+
+
+    display: flex;
+    gap:25px;
+}
+
+li{
+
+    list-style-type: none;
+}
+
+.banner{
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+
+
+
+
+
+}
+.banner-img{
+
+    background-image: url('../images/Circle\ design.svg');
+background-repeat: no-repeat;
+background-position: right;
+background-size: contain;
+margin-right: 30px;
+
+}
+
+.banner-title{
+
+    font-size: 3rem;
+}
+
+.btn{
+
+border:none;
+background-color: crimson;
+border-radius: 15px;
+padding:15px;
+color:#FFF;
+cursor:pointer;
+
+}
+
+.logo-container{
+
+
+    text-align: center;
+    margin-top:90px;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.dotted{
+
+    opacity: 0.2;
+    width:70%;
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.collection-container{
+width:75%;
+margin: 0 auto;
+margin-top: 160px;
+
+}
+
+.collection-title{
+
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+.cards img{
+
+    width:320px;
+    height: 256px;
+
+}
+
+.cards{
+    width: 100%;
+    width: 329px;
+    height: 476px;
+    padding:46px;
+    background-color: #FFF;
+     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.cards:hover{
+
+box-shadow: 5px 12px 22px blue;
+
+}
+.collection-cards{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+}
+
+h4{
+
+    color:brown;
+    font-weight: 100;
+}
+
+.cards p{
+
+    color:gray;
+    opacity: 0.6;
+
+}
+
+
+.feature-title{
+
+    font-size: 3rem;
+}
+
+.feature-img img{
+
+
+    width:404px;
+    height:270px;
+}
+.feature-section{
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 70px;
+background-color: #FFF;
+padding:20px;
+
+}
+
+footer{
+    background: #0A0826;
+    margin-top: 150px;
+    color: #FFF;
+    padding: 30px;
+}
+
+.footer-content{
+
+    text-align: center;
+}
+
+.footer-title{
+
+
+    font-size: 2.3rem;
+}
+
+.footer-icons{
+
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
